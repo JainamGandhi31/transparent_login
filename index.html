@@ -16,11 +16,11 @@
        <h1>Sign In</h1>
        <div class="box">
         <i class="fa fa-envelope"></i>
-        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required>
        </div>
        <div class="box">
         <i class="fa fa-key"></i>
-        <input type="password" name="password" id="password" placeholder="Enter Your Passsword" required>
+        <input type="password" name="password" id="password" placeholder="Enter Your Passsword" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required>
        </div>
 
         <button id="loginbtn">Sign In</button>
